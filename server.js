@@ -1,8 +1,7 @@
- 
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const ap = express();
+const app = express();
 app.use(bodyParser.json());
 
 let data = [];
